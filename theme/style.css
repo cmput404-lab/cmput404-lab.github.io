@@ -1,7 +1,46 @@
 html, body {
-    margin: 0;
+    margin: 20px;
+    padding-right: 20px;
     border: 0;
     font-size: 100%;
-    background-color: #000000;
-    color: #ffffff;
-  }
+    background-color: #DDEDE4;
+    color: #000;
+    font-family: Didot, serif;
+}
+
+li {
+    border-radius: 25px;
+    padding: 5px; 
+    padding-left: 10px;
+    margin: 20px;
+    background-color: #EEF8F3;
+    border: 2px solid #BAB2A4;
+}
+
+h1 {
+    font-size: 220%;
+}
+h2 {
+    font-size: 150%;
+}
+
+a {
+    color: #4A8050;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#content {
+    background-color: #EEF8F3;
+    border-radius: 20px;
+    padding: 20px; 
+}
+  
+a:hover {
+color: #555;
+}
+
+a:active {
+color: black;
+}
